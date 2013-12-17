@@ -39,7 +39,7 @@ def fill_in_field(step, fieldname, fieldvalue):
 @step('And submit the form')
 def submit_form(step):
     world.browser.find_element_by_css_selector("input#Mail").click()
-    time.sleep(3)
+    #time.sleep(3)
 
 @step('Then the response should indicate success')
 def then_the_response_should_indicate_success(step):
